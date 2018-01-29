@@ -1,5 +1,5 @@
 # ub-azure-storage-java
-Azure Storage Java Client implementation for Unbound-tech EKM
+Azure Storage Java Client implementation for Unbound-tech EKM.
 
 ## Prerequisites
 * EKM client is installed
@@ -7,12 +7,12 @@ Azure Storage Java Client implementation for Unbound-tech EKM
 * The `lib:org.apache.ivy.ant` task is installed. Refer to http://ant.apache.org/ivy/history/2.2.0/ant.html for further details
 
 ## Build
-Add the Unbound Java Security Provider Jar (ekm-java-provider-2.0) to root directory of the project and run `ant`.
+Add the Unbound Java Security Provider Jar (ekm-java-provider-2.0.jar) file to root directory of the project and run `ant`.
 
 ## Usage
-Include The Unbound Java Security Provider Jar (ekm-java-provider-2.0) and the dist/ub-jsgin-ant.jar in your project.
+Include The Unbound Java Security Provider Jar (ekm-java-provider-2.0.jar) file and the dist/ub-jsgin-ant.jar in your project.
 
-### Blob encryption :
+### Blob encryption
 ```java
 
 import com.dyadicsec.provider.DYCryptoProvider;
@@ -117,7 +117,7 @@ public class BlobGettingStarted {
 ```
 
 
-### Queue encryption :
+### Queue encryption 
 ```java
 /**
  * Copyright Microsoft Corporation
