@@ -10,7 +10,7 @@ Azure Storage Java Client implementation for Unbound-tech EKM.
 Add the Unbound Java Security Provider Jar (ekm-java-provider-2.0.jar) file to root directory of the project and run `ant`.
 
 ## Usage
-Include The Unbound Java Security Provider Jar (ekm-java-provider-2.0.jar) file and the dist/ub-jsgin-ant.jar in your project.
+Include The Unbound Java Security Provider Jar (ekm-java-provider-2.0.jar) file and the dist/ub-azure.jar in your project.
 
 ### Blob encryption
 ```java
