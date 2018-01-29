@@ -7,10 +7,10 @@ Azure Storage Java Client implementation for Unbound-tech EKM.
 * The `lib:org.apache.ivy.ant` task is installed. Refer to http://ant.apache.org/ivy/history/2.2.0/ant.html for further details
 
 ## Build
-Add the Unbound Java Security Provider Jar (ekm-java-provider-2.0.jar) file to root directory of the project and run `ant`.
+Add the Unbound Java Security Provider (`ekm-java-provider-2.0.jar`) file to root directory of the project and run `ant`.
 
 ## Usage
-Include The Unbound Java Security Provider Jar (ekm-java-provider-2.0.jar) file and the dist/ub-azure.jar in your project.
+Include The Unbound Java Security Provider (`ekm-java-provider-2.0.jar`) file and the `dist/ub-azure.jar` in your project.
 
 ### Blob encryption
 ```java
@@ -118,21 +118,9 @@ public class BlobGettingStarted {
 
 
 ### Queue encryption 
+
 ```java
-/**
- * Copyright Microsoft Corporation
- * 
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * http://www.apache.org/licenses/LICENSE-2.0
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.microsoft.azure.storage.encryption.queue.gettingstarted;
 
 import java.net.URISyntaxException;
