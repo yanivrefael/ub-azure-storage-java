@@ -1,5 +1,5 @@
 # ub-azure-storage-java
-Azure Storage Java Client implantation for Unbound-tech EKM
+Azure Storage Java Client implementation for Unbound-tech EKM
 
 ## Prerequisites
 * EKM client is installed
