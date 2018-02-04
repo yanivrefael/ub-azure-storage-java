@@ -2,15 +2,20 @@
 Azure Storage Java Client implementation for Unbound-tech EKM.
 
 ## Prerequisites
-* EKM client is installed
+* EKM client is installed. (Its distribution contains the `ekm-java-provider-2.0.jar` file)
 * Ant (Version >= 1.93) is installed. Refer to https://ant.apache.org/bindownload.cgi for further details
 * The `lib:org.apache.ivy.ant` task is installed. Refer to http://ant.apache.org/ivy/history/2.2.0/ant.html for further details
 
 ## Build
-Add the Unbound Java Security Provider (`ekm-java-provider-2.0.jar`) file to root directory of the project and run `ant`.
+Add the Unbound Java Security Provider (`ekm-java-provider-2.0.jar`) file to the root directory of the project and run `ant`.
 
 ## Usage
 Include The Unbound Java Security Provider (`ekm-java-provider-2.0.jar`) file and the `dist/ub-azure.jar` in your project.
+
+### Assumptions
+In the following code we assume that:
+- EKM cluster contains partition named `"part1"`
+- EKM partition "part1" contains RSA key named `"key-name"`
 
 ### Blob encryption
 ```java
